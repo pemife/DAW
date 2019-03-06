@@ -1,0 +1,2 @@
+1- Cabecera Content-type en peticiones, ¿Tipo de contenido del cuerpo (si tiene)?
+2-

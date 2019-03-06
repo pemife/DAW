@@ -1,0 +1,8 @@
+Act1:
+Comprobar el uso de la directiva options symlinks if ownerMatch
+
+actividad 2
+creamos un directoruio recetas con ficheros de texto, el usuario(apache) seria superman y la contraseña cine, acceso exclusivo para superman, usar directiva limits para que no pueda usar post.
+
+Actividad 3:
+Estudiar directiva limit, crear dos ejemplos.

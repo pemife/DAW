@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0021)http://websniffer.cc/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta content="utf-8" http-equiv="encoding">
+<title>View HTTP Request and Response Header, Web-Sniffer.Net alternative</title>
+<meta name="description" content="view request and response header of a HTTP connection, HTTP status codes and HTML source">
+<meta name="keywords" content="HTTP, header, web, charset, status, unicode, BOM, byte order mark, webserver, apache, browser, HTML, IDN, Punycode">
+<meta name="author" content="WebSniffer.CC">
+<link rel="stylesheet" type="text/css" href="./pagina1_files/style.css">
+<link rel="shortcut icon" href="http://websniffer.cc/favicon.ico">
+<link rel="index" title="Web Sniffer" href="http://websniffer.cc/">
+<link rel="appendix" title="RFC 2616" href="http://websniffer.cc/rfc2616.html">
+<link rel="appendix" title="W3C" href="http://www.w3.org/">
+<link rel="appendix" title="Unicode" href="http://www.unicode.org/">
+<link rel="glossary" title="RFC 2616" href="http://websniffer.cc/rfc2616.html">
+</head>
+
+<body>
+<h1>View HTTP Request and Response Header</h1>
+
+<form action="http://websniffer.cc/" method="post">
+<fieldset>
+<legend>For more information on <abbr title="HyperText Transfer Protocol">HTTP</abbr> see <a href="http://websniffer.cc/rfc2616.html"><strong><abbr title="Request for Comment">RFC</abbr> 2616</strong></a></legend>
+<p>
+<strong>HTTP(S)-URL:</strong> <input class="text url" type="text" id="url" name="url" value="
+https://www.google.com/"> <input type="submit" name="submit" value="Submit"> <span style="font-size:0.8em;">(<abbr title="Internationalized Domain Names">IDN</abbr> allowed)</span>
+</p>
+
+<p>
+
+<label for="req-type">Request type:
+<select name="reqtype" id="req-type">
+<option value="0" selected="">GET</option>
+<option value="1">POST</option>
+<option value="2">HEAD</option>
+</select>
+</label>
+
+<label for="http-version">HTTP version:
+<select name="httpver" id="http-version">
+<option value="0" selected="">default</option>
+<option value="2">HTTP/1.0</option>
+<option value="3">HTTP/1.1</option>
+<option value="4">HTTP/2</option>
+</select>
+</label>
+
+<label for="ua-list">User agent:
+<select name="useragent" id="ua-list">
+<option value="0" selected="">Web-Sniffer</option>
+<option value="1">Internet Explorer 6</option>
+<option value="2">Internet Explorer 7</option>
+<option value="3">Firefox 3</option>
+<option value="4">Google Chrome 5</option>
+<option value="5">Safari 5</option>
+<option value="6">iPhone Mobile Safari</option>
+<option value="7">Netscape 4.8</option>
+<option value="8">Opera 9.2</option>
+<option value="9">Googlebot</option>
+<option value="10">your user agent</option>
+</select>
+</label>
+
+</p>
+
+<p>
+<label for="gzip"><input type="checkbox" name="gzip" value="yes" id="gzip" checked="checked"> Accept-Encoding: gzip</label>
+</p>
+
+<hr>
+<script async="" src="./pagina1_files/analytics.js.descarga"></script><script async="" src="./pagina1_files/f.txt"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0113441673686829" data-ad-slot="6001642281" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</fieldset>
+</form>
+
+<h2>HTTP Request Header</h2>
+<pre>Connect to 172.217.6.68 on port 443 ... ok
+
+</pre>
+<div style="background-color:silver;"><pre>GET / HTTP/1.1
+User-Agent: WebSniffer/1.0 (+http://websniffer.cc/)
+Host: www.google.com
+Accept: */*
+Referer: http://websniffer.cc/
+
+</pre></div>
+<h2>HTTP Response Header</h2>
+<table>
+<tbody><tr><th>Name</th><th>Value</th></tr>
+<tr><td colspan="2"><b>HTTP/1.1 200 OK
+</b></td></tr>
+<tr class="swap"><td><b>Date:</b></td><td>Thu, 25 Oct 2018 10:27:52 GMT
+</td></tr>
+<tr><td><b>Expires:</b></td><td>-1
+</td></tr>
+<tr class="swap"><td><b>Cache-Control:</b></td><td>private, max-age=0
+</td></tr>
+<tr><td><b>Content-Type:</b></td><td>text/html; charset=ISO-8859-1
+</td></tr>
+<tr class="swap"><td><b>P3P:</b></td><td>CP="This is not a P3P policy! See g.co/p3phelp for more info."
+</td></tr>
+<tr><td><b>Server:</b></td><td>gws
+</td></tr>
+<tr class="swap"><td><b>X-XSS-Protection:</b></td><td>1; mode=block
+</td></tr>
+<tr><td><b>X-Frame-Options:</b></td><td>SAMEORIGIN
+</td></tr>
+<tr class="swap"><td><b>Set-Cookie:</b></td><td>1P_JAR=2018-10-25-10; expires=Sat, 24-Nov-2018 10:27:52 GMT; path=/; domain=.google.com
+</td></tr>
+<tr><td><b>Set-Cookie:</b></td><td>NID=144=iltCDUvViXdjWMg8hkP-Jd1-9QpOUTmdGyGOeKXQp5H_jA3RIY1DMc9yNWRmcE2XSbOF6lsSWVqgGAXPgPjwsMBDEbCmGOu2gog9e2CEMEAZbU_6td8maXIN9NtLvpuA1BWr5N4Gs6M-oZEcK_rsJdV5l2jWYQ3MBtkxxL-r98s; expires=Fri, 26-Apr-2019 10:27:52 GMT; path=/; domain=.google.com; HttpOnly
+</td></tr>
+<tr class="swap"><td><b>Alt-Svc:</b></td><td>quic=":443"; ma=2592000; v="44,43,39,35"
+</td></tr>
+<tr><td><b>Accept-Ranges:</b></td><td>none
+</td></tr>
+<tr class="swap"><td><b>Vary:</b></td><td>Accept-Encoding
+</td></tr>
+<tr><td><b>Transfer-Encoding:</b></td><td>chunked</td></tr>
+</tbody></table><h2>Content</h2>
+<div style="background-color:silver;"><pre></pre></div>
+
+<h2>Features:</h2>
+	
+<ul>
+<li>list of user agents</li>
+<li>switch between <a href="http://websniffer.cc/rfc2616.html">HTTP/1.1</a> and <a href="http://websniffer.cc/rfc2616.html#section-19.6.1">HTTP/1.0</a></li>
+<li>test <a href="http://websniffer.cc/rfc2616.html#section-14.25">If-Modified-Since</a> and <a href="http://websniffer.cc/rfc2616.html#section-14.24">If-Match</a> headers</li>
+<li>support <a href="http://websniffer.cc/rfc2616.html#section-14.47">WWW-Authenticate</a></li>
+<li>search engine redirect added – all bots will be moved permanently to frontpage</li>
+<li>the <abbr title="Uniform Resource Locator">URL</abbr> may also be an <a href="http://websniffer.cc/rfc/rfc3490.html">Internationalized Domain Names (IDN)</a></li>
+<li>secure connections (HTTPS) allowed</li>
+</ul>
+
+<h2>See also:</h2>
+	
+<ul>
+<li><a href="http://websniffer.cc/rfc2616.html">RFC 2616 - Hypertext Transfer Protocol (HTTP)</a></li>
+<li><a href="http://websniffer.cc/rfc/rfc3490.html">RFC 3490 - Internationalizing Domain Names in Applications (IDNA)</a></li>
+</ul>
+
+<h2>Follow us on:</h2>
+
+<ul>
+<li><a href="https://twitter.com/Web_Sniffer" target="_blank">Twitter</a></li>
+</ul>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-20572145-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</body></html>

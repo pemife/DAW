@@ -1,0 +1,358 @@
+html,body {
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+
+* {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.center {
+	text-align: center;
+}
+
+p#top-slogan {
+	margin: 2px 10px 0px 10px;
+	padding: 0px 5px 3px;
+	border-bottom: 1px solid black;
+	font-size: 12px;
+	font-weight: bold;
+	font-stretch: condensed;
+	text-align: right;
+}
+p#top-footer {
+	margin: 2px 10px 0px 10px;
+	padding: 0px 5px 3px;
+	font-size: 12px;
+	font-weight: bold;
+	font-stretch: condensed;
+	text-align: right;
+}
+h1,
+h2,
+h3
+{
+	color: #8b0000;
+}
+h1 {
+	font-size: 1.3em;
+	margin-left: 15px;
+	margin-top: 0;
+}
+h2 {
+	font-size: 1.2em;
+	margin-left: 15px;
+}
+h3 {
+	font-size: 1em;
+	margin-left: 15px;
+}
+p
+{
+	margin: 5px 0 5px 15px;
+}
+acronym, abbr {
+	cursor: help;
+}
+
+form {
+}
+fieldset {
+	margin: 2px 10px 0px 10px;
+	padding: 15px 10px 15px 10px;
+	border: 1px solid black;
+}
+fieldset legend {
+	padding: 2px 10px;
+	color: black;
+	background-color: #ffe34c; color: #392f76;
+	border-width: 1px; border-style: solid;
+	border-color: #fff7dd #aa8000 #aa8000 #fff7dd;
+	font-size: 0.8em;
+}
+label {
+	font-size: 0.9em;
+	padding: 2px 0 0;
+	cursor: pointer;
+}
+label:hover {
+	background-color: #ffe34c;
+}
+fieldset p {
+	margin: 10px;
+}
+
+input.text {
+	border: 1px solid #a9a9a9;
+	background-color: #fffff0; color: black;
+	padding: 1px 3px;
+	margin-left: 5px; margin-right: 5px;
+	font-size: 0.95em;
+}
+input.url {
+	width: 50%;
+}
+input[type="submit"] {
+	background-color: #ffe34c; color: #392f76;
+	border-width: 1px; border-style: solid;
+	border-color: #fff7dd #aa8000 #aa8000 #fff7dd;
+ 	padding-top: 1px; padding-bottom: 1px;
+	vertical-align: bottom;
+	cursor: pointer;
+	font-size: 0.95em;
+	width: 6em;
+}
+
+select.inline {
+	height: 1.4em;
+	border: none !important;
+}
+select.inline option {
+	display: inline;
+	border: none;
+}
+
+table {
+ 	border-width: 1px 1px 1px 2px;
+	border-color: silver;
+	border-style: solid;
+ 	padding: 0px; margin: 2px 10px 0px 10px;
+	border-spacing: 0px;
+	width: 95%;
+}
+table tr th {
+	font-size: 0.9em;
+	font-weight: bold;
+	text-align: left;
+	padding: 2px 5px;
+	color: black;
+	background-color: #ffe34c;
+	border-width: 1px; border-style: solid;
+	border-color: #fff7dd #aa8000 #aa8000 #fff7dd;
+}
+table tr.swap td {
+	background-color: #f0f8ff;
+}
+table tr th.name {
+	min-width: 6em;
+}
+table tr th.delim {
+	width: 4em;
+}
+table tr td {
+	color: black;
+	text-align: left;
+	vertical-align: top;
+	padding: 3px 5px;
+	border-bottom: 1px solid silver;
+	border-right: 1px solid silver;
+}
+table tr td.name {
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+table#top-table {
+	border: none;
+	width: 100%;
+	margin: 10px 0px;
+}
+table#top-table td#headline {
+	border: none;
+	text-align: left;
+}
+table#top-table td#banner {
+	border: none;
+	text-align: right;
+}
+p {
+	margin: 5px 10px 5px 15px;
+}
+
+div#html {
+	display: table;
+	margin-left: 10px;
+	background-color: #eee;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #999999;
+}
+
+pre {
+ 	font-family: "DejaVu Sans Mono", "Courier New", Courier, Monaco, monospace;
+ 	padding: 0;	margin: 2px 10px 0px 10px;
+	font-size: 12px;
+}
+pre span {
+ 	display: inline;
+ 	font-family: "DejaVu Sans Mono", "Courier New", Courier, Monaco, monospace;
+	font-size: 12px;
+}
+
+pre span.crlf {
+	color: #a9a9a9;
+	font-size: 10px;
+	font-weight: bold;
+}
+pre span.ctrlchar {
+	color: #a9a9a9;
+}
+pre span.chunk {
+	color: black !important;
+	background-color: #dcdcdc;
+	display: block;
+}
+pre span.name {
+	color: black;
+	font-weight: bold;
+}
+span.tag {
+	color: #8b008b;
+	font-weight: bold;
+}
+span.value {
+	color: darkblue;
+}
+span.attr {
+	color: black;
+	font-weight: bold;
+}
+span.value span.attr {
+	font-weight: normal;
+	color: darkblue;
+}
+span.comment {
+	color: darkgreen !important;
+	font-style: italic;
+}
+span.entity {
+	color: #ff4500;
+}
+span.script {
+	color: #696969;
+}
+span.style {
+	color: #a0522d;
+}
+span.doctype {
+	color: #407eee;
+	font-style: italic;
+}
+p.home {
+	text-align: center;
+	border-top: 2px solid silver;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	background-color: #ffe34c;
+}
+
+p#footer {
+	margin: 30px 10px 20px; padding-top: 5px;
+	text-align: center;
+	border-top: 1px solid black;
+}
+
+fieldset#google-bar {
+	height: 115px;
+	margin: 2px 10px 0px 10px;
+	padding: 5px 5px 0px;
+	border: 1px solid silver;
+	/* background-color: #f5f5f5; */
+}
+fieldset#google-bar legend {
+	/* background-color: #f5f5f5; */
+	/* border: 1px solid silver; */
+	padding: 1px 5px;
+	font-size: 0.8em;
+}
+fieldset#google-bar p {
+	font-size: 0.8em;
+}
+
+fieldset#google-bar div.google-ad {
+	margin: 5px 5px 3px 3px; padding: 2px;
+	width: 170px; height: 80px;
+	background-color: #fffacd;
+	border-width: 1px;
+	border-style: solid;
+	border-top-color: #a9a090;
+	border-left-color: #a9a090;
+	border-right-color: #e4e4c9;
+	border-bottom-color: #e4e4c9;
+	overflow: hidden;
+	float: left;
+}
+fieldset#google-bar div.google-ad p.ad-title {
+	font-size: 0.75em;
+	margin: 1px 0 3px 0;
+	line-height: 1.2em;
+}
+fieldset#google-bar div.google-ad p.ad-title a {
+	color: blue;
+	background-color: transparent;
+	text-decoration: underline;
+	font-weight: bold;
+}
+fieldset#google-bar div.google-ad p.ad-text {
+	font-size: 0.7em;
+	margin: 1px 0 3px 0;
+}
+fieldset#google-bar div.google-ad p.ad-text a {
+	color: black;
+	background-color: transparent;
+}
+fieldset#google-bar div.google-ad p.ad-url {
+	font-size: 0.65em;
+	margin: 1px 0 3px 0;
+}
+fieldset#google-bar div.google-ad p.ad-url a {
+	color: green;
+	background-color: transparent;
+}
+
+p#top-footer a.popup-info {
+	text-decoration: none;
+	background-color: transparent;
+	z-index: 997;
+}
+p#top-footer a.popup-info span {
+	display: none;
+}
+p#top-footer a.popup-info:hover {
+	border: none;
+	z-index: 998;
+}
+p#top-footer a.popup-info span.popup-text {
+	display: none;
+}
+p#top-footer a.popup-info span.popup-text strong {
+	color: #8b0000;
+	margin-left: -5px;
+}
+
+p#top-footer a.popup-info:hover span.popup-text {
+	display: inline;
+	position: absolute;
+	border: 2px solid #ffe065;
+	background-color: #fff8bb;
+	width: 18em;
+	right: 15px;
+	/*padding: 3px; */
+	padding: 2px 5px 3px 10px; !important;
+	margin-top: 2em;
+	text-decoration: none;
+	color: black !important;
+	line-height: 15px !important;
+	font-size: 13px !important;
+	font-weight: normal !important;
+	font-style: normal !important;
+	text-transform: none !important;
+	font-variant: normal !important;
+	text-align: left !important;
+	z-index: 999;
+}

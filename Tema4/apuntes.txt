@@ -1,0 +1,28 @@
+HTTPS y Certificados digitales
+
+Puede que caiga en examen:
+Funcion hash
+Funcion hash y criptografica
+
+
+-Una FHC ideal es determinista: un mismo mensaje siempre resulta en el mismo hash
+-La conputacion del valor hash es rapida para cualquier mensaje
+-Es inviable generar un mensaje a partir de su valor hash
+-Un pequeño cambio en un mensaje deberia cambiar en y un mensaje deberia cambiar el valor del
+hash de tal manera que el nuevo valor no parezca que tenga correlacion con el valor hash antiguo
+-Es inviable encontrar dos mensajes diferentes con el mismo valor da hash
+
+
+OpenSSL:
+1.Puede ser usada para creacion y administración de claves privadas, claves publicas y parametros.
+2.Operaciones criptograficas de claves publicas
+3.Creacion de certificados X.509, CSR y correlacion
+4.Calculo de resumen de mensajes
+5.Encriptacion y desencriptacion.
+6.Tests de SSL/TLS clientes y servidores
+7.Gestion de S/MIME firmado o correo encriptado
+8.Peticiones de marcas horarias, generacion y verificacion
+
+
+Formato PEN:
+Es un formato de ficheros para almacenar y enviar claves criptograficas, certificados y otros datos.

@@ -1,0 +1,10 @@
+Def pagina web: documento web renderizado en pantalla
+protocolo http basado en mensajes (peticiones y
+respuestas). Antes de ser posible la comunicacion
+http entre el servidor y el cliente, localiza el
+servidor mediante el protocolo tcp/ip y una peticion
+al servidor dns para resolver el nombre de dominio.
+
+Empresa que muere de exito:
+Una empresa con unas expectativas, que se cumplen, pero
+cuando se cumplen, la empresa no esta preparada.

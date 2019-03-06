@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html><head>
+<title>Apache Status</title>
+</head><body>
+<h1>Apache Server Status for vps612589.ovh.net (via 51.75.248.159)</h1>
+
+<dl><dt>Server Version: Apache/2.4.29 (Ubuntu)</dt>
+<dt>Server MPM: prefork</dt>
+<dt>Server Built: 2018-10-10T18:59:25
+</dt></dl><hr /><dl>
+<dt>Current Time: Monday, 18-Feb-2019 12:08:03 CET</dt>
+<dt>Restart Time: Thursday, 14-Feb-2019 20:35:29 CET</dt>
+<dt>Parent Server Config. Generation: 15</dt>
+<dt>Parent Server MPM Generation: 14</dt>
+<dt>Server uptime:  3 days 15 hours 32 minutes 33 seconds</dt>
+<dt>Server load: 0.00 0.01 0.00</dt>
+<dt>Total accesses: 3284 - Total Traffic: 23.1 MB</dt>
+<dt>CPU Usage: u.92 s.82 cu0 cs0 - .000552% CPU load</dt>
+<dt>.0104 requests/sec - 76 B/second - 7.2 kB/request</dt>
+<dt>1 requests currently being processed, 7 idle workers</dt>
+</dl><pre>___W____........................................................
+................................................................
+......................</pre>
+<p>Scoreboard Key:<br />
+"<b><code>_</code></b>" Waiting for Connection, 
+"<b><code>S</code></b>" Starting up, 
+"<b><code>R</code></b>" Reading Request,<br />
+"<b><code>W</code></b>" Sending Reply, 
+"<b><code>K</code></b>" Keepalive (read), 
+"<b><code>D</code></b>" DNS Lookup,<br />
+"<b><code>C</code></b>" Closing connection, 
+"<b><code>L</code></b>" Logging, 
+"<b><code>G</code></b>" Gracefully finishing,<br /> 
+"<b><code>I</code></b>" Idle cleanup of worker, 
+"<b><code>.</code></b>" Open slot with no current process<br />
+</p>
+
+
+<table border="0"><tr><th>Srv</th><th>PID</th><th>Acc</th><th>M</th><th>CPU
+</th><th>SS</th><th>Req</th><th>Conn</th><th>Child</th><th>Slot</th><th>Client</th><th>Protocol</th><th>VHost</th><th>Request</th></tr>
+
+<tr><td><b>0-14</b></td><td>5932</td><td>0/20/437</td><td>_
+</td><td>0.04</td><td>25</td><td>1</td><td>0.0</td><td>0.07</td><td>3.26
+</td><td>84.122.252.196</td><td>http/1.1</td><td nowrap>vps612589.ovh.net:80</td><td nowrap>GET /estado HTTP/1.1</td></tr>
+
+<tr><td><b>1-14</b></td><td>6860</td><td>0/21/333</td><td>_
+</td><td>0.04</td><td>10</td><td>2</td><td>0.0</td><td>0.07</td><td>2.31
+</td><td>84.122.252.196</td><td>http/1.1</td><td nowrap>vps612589.ovh.net:80</td><td nowrap>GET /estado HTTP/1.1</td></tr>
+
+<tr><td><b>2-14</b></td><td>5933</td><td>0/18/394</td><td>_
+</td><td>0.05</td><td>20</td><td>1</td><td>0.0</td><td>0.07</td><td>1.51
+</td><td>84.122.252.196</td><td>http/1.1</td><td nowrap>vps612589.ovh.net:80</td><td nowrap>GET /estado HTTP/1.1</td></tr>
+
+<tr><td><b>3-14</b></td><td>5934</td><td>0/19/626</td><td><b>W</b>
+</td><td>0.04</td><td>0</td><td>0</td><td>0.0</td><td>0.06</td><td>5.71
+</td><td>84.122.252.196</td><td>http/1.1</td><td nowrap>vps612589.ovh.net:80</td><td nowrap>GET /estado HTTP/1.1</td></tr>
+
+<tr><td><b>4-14</b></td><td>5935</td><td>0/72/602</td><td>_
+</td><td>0.07</td><td>15</td><td>1</td><td>0.0</td><td>0.16</td><td>3.16
+</td><td>84.122.252.196</td><td>http/1.1</td><td nowrap>vps612589.ovh.net:80</td><td nowrap>GET /estado HTTP/1.1</td></tr>
+
+<tr><td><b>5-14</b></td><td>5936</td><td>0/20/383</td><td>_
+</td><td>0.03</td><td>30</td><td>1</td><td>0.0</td><td>0.06</td><td>3.96
+</td><td>84.122.252.196</td><td>http/1.1</td><td nowrap>vps612589.ovh.net:80</td><td nowrap>GET /estado HTTP/1.1</td></tr>
+
+<tr><td><b>6-14</b></td><td>8182</td><td>0/18/274</td><td>_
+</td><td>0.03</td><td>5</td><td>1</td><td>0.0</td><td>0.19</td><td>2.59
+</td><td>84.122.252.196</td><td>http/1.1</td><td nowrap>vps612589.ovh.net:80</td><td nowrap>GET /estado HTTP/1.1</td></tr>
+
+<tr><td><b>7-14</b></td><td>8183</td><td>0/18/59</td><td>_
+</td><td>0.03</td><td>35</td><td>0</td><td>0.0</td><td>0.06</td><td>0.18
+</td><td>84.122.252.196</td><td>http/1.1</td><td nowrap>vps612589.ovh.net:80</td><td nowrap>GET /estado HTTP/1.1</td></tr>
+
+<tr><td><b>8-3</b></td><td>-</td><td>0/0/13</td><td>.
+</td><td>0.32</td><td>193380</td><td>4</td><td>0.0</td><td>0.00</td><td>0.06
+</td><td>185.244.25.151</td><td>http/1.1</td><td nowrap>www.jaimito.com:81</td><td nowrap>GET login.cgi HTTP/1.1</td></tr>
+
+<tr><td><b>9-3</b></td><td>-</td><td>0/0/34</td><td>.
+</td><td>0.70</td><td>193380</td><td>4</td><td>0.0</td><td>0.00</td><td>0.15
+</td><td>172.104.230.218</td><td>http/1.1</td><td nowrap></td><td nowrap></td></tr>
+
+<tr><td><b>10-3</b></td><td>-</td><td>0/0/129</td><td>.
+</td><td>0.39</td><td>193380</td><td>4</td><td>0.0</td><td>0.00</td><td>0.20
+</td><td>185.172.110.88</td><td>http/1.1</td><td nowrap>www.jaimito.com:81</td><td nowrap>GET login.cgi HTTP/1.1</td></tr>
+
+</table>
+ <hr /> <table>
+ <tr><th>Srv</th><td>Child Server number - generation</td></tr>
+ <tr><th>PID</th><td>OS process ID</td></tr>
+ <tr><th>Acc</th><td>Number of accesses this connection / this child / this slot</td></tr>
+ <tr><th>M</th><td>Mode of operation</td></tr>
+<tr><th>CPU</th><td>CPU usage, number of seconds</td></tr>
+<tr><th>SS</th><td>Seconds since beginning of most recent request</td></tr>
+ <tr><th>Req</th><td>Milliseconds required to process most recent request</td></tr>
+ <tr><th>Conn</th><td>Kilobytes transferred this connection</td></tr>
+ <tr><th>Child</th><td>Megabytes transferred this child</td></tr>
+ <tr><th>Slot</th><td>Total megabytes transferred this slot</td></tr>
+ </table>
+<hr />
+<address>Apache/2.4.29 (Ubuntu) Server at vps612589.ovh.net Port 80</address>
+</body></html>

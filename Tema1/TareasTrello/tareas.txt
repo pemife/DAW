@@ -1,0 +1,13 @@
+T007:
+sudo apt install putty
+putty
+se abre una ventana donde ponemos el host y el puerto, con telnet, nos
+abre un terminal donde podemos poner la peticion http. Para pedir una
+imagen, debemos pedirla en la ruta:
+GET /imagenEjemplo.jgp HTTP/1.1
+Host: www.ejemplo.com
+Accept: image/png
+no se si esta bien
+
+T008:
+

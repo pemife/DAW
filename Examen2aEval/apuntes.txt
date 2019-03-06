@@ -1,0 +1,48 @@
+COSAS QUE PUEDEN CAER EN EL EXAMEN + APUNTES:
+
+1ª EVAL:
+
+CABECERAS WEB:
+
+Peticion:
+Accept-Encoding, Host, Accept, User-Agent, Accept-Encoding,
+Content-Type(si la petición contiene cuerpo(?)), Content-Length, etc.
+
+Respuesta:
+Content-type, Date, Content-length, Content-Encoding, etc
+
+Ojo!:
+Accept (-*) (parametros):
+  */*       -> Cualquier tipo MIME,  con cualquier subtipo MIME
+  image/*   -> Cualquier imagen, dando igual el subtipo
+  text/html -> Solo información de tipo texto en html
+  ; q=0.01  -> Prioridad, aplicable a cualquier tipo MIME, (por defecto es 1.0)
+               define cual usa en caso de igualdad.
+
+
+REQUEST FOR COMMENTS (RFC):
+
+Wiki-def:
+  Son una serie de publicaciones del grupo de trabajo de ingenieria
+de internet que describen diversos aspectos del funcionamiento de Internet
+y otras redes de computadoras, como protocolos, procedimientos, etc.
+y comentarios e ideas sobre estos.
+
+HTTP:
+  RFC 1945 -> 1.0 (1996)
+  RFC 2616 -> 1.1 (1999) (RFC 2068 obsoleta)
+  RFC 7540 -> 2.0 (2015)
+
+DNS:
+  RFC 1034 -> (conceptos y facilidades)
+  RFC 1035 -> (implementacion y specificacion)
+
+POP3:
+  RFC 918   -> POPv1
+  RFC 937   -> POPv2
+  RFC 1081  -> POPv3
+  RFC 1939  -> POPv3 (STD 53)
+
+FTP:
+  RFC 959   -> 1985
+  RFC 2428  -> IPv6 support
